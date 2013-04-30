@@ -1,5 +1,0 @@
-How to use Image Manager
-by Matthew McNaney
-
-Please refer to File Manager as this document no longer applies to
-phpWebSite.

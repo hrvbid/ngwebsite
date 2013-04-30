@@ -1,3 +1,0 @@
-usa,United States of America
-mexico,Mexico
-canada,Canada

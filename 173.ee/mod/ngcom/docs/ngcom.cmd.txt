@@ -1,5 +1,0 @@
-cmd 20121025
-************
-
-ngcom/op/i18n
-	configure the i18n box
