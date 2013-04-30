@@ -1,1 +1,0 @@
-<var data-mod="ngcom" id="ngcomjs" class="vset hidden" data-id="cs"></var>

@@ -1,4 +1,0 @@
-The purpose of this document is to define the stylistic guidelines of
-1.x series of phpWebSite.
-
-
