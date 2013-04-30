@@ -1,3 +1,5 @@
 use branch ngws.se
  or branch ngws.ee
- 
+
+2013.04.30 created branches ngws.se and ngws.ee on base of pws 1.7.3 last cp from svn
+********** and added ng stuff to both.
