@@ -1,0 +1,15 @@
+ngMenu - module for phpWebSite / ngWebSite
+****************************************************************
+Author Hilmar Runge <ngwebsite.net>
+
+    ngWebSite
+    http://ngwebsite.net
+
+    phpWebSite
+    http://phpwebsite.appstate.edu
+
+ngMenu contains works from and thanks to the following projects:
+
+	jQuery framework	jquery.com
+	Superfish 			jQuery menu widget by Joel Birch
+	Tabby 				jQuery plugin by Ted Devito

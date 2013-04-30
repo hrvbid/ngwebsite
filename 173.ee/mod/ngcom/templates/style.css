@@ -1,0 +1,325 @@
+.ngwop a, .nclnga, #searchresults td a  {
+	cursor: pointer;
+	color: #880000;
+}
+
+.hidden {
+	display: none;
+}
+
+.mono, td.mono {
+	font-family: monospace;
+}
+
+.bgwhite {
+	background-color: white;
+}
+
+div.line-s {
+	line-height: 1.1em;
+}
+
+div.line-xs {
+	line-height: 1em;
+}
+
+.nclwophx, .ngcomwophx, .nbkwophx  {
+	color: #888888;
+	display: inline;
+	font-weight: normal;
+}
+.nclwopt {
+	padding: 0px;
+}
+.ngcomcnt ul {
+	list-style-position: inside;
+}
+.ngcomcnt ul ul{
+	margin-left: 12px;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+    background-color: #ffffff;
+    border-color: #999 #DDD #DDD #999;
+    border-style: solid;
+    border-width: 1px;
+    color: #003366;
+    font-family: monospace;
+	font-size: 1em;
+}
+
+input[type="submit"], input[type="button"] {
+	vertical-align: middle;
+    background-color: #eeeeee;
+	background: -moz-linear-gradient(right, #aaaaaa, #f5f5ee, #f5f5ee, #f5f5ee, #aaaaaa);
+    border-color: #DDDDDD #999999 #999999  #DDDDDD;
+    border-style: solid;
+    border-width: 1px;
+    color: #003366;
+    cursor: default;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+	margin: 3px 2px;
+}
+
+#phpws_form_bname, #phpws_form_btitle, 
+#phpws_form_bpinpage, #phpws_form_bpinpoint
+{
+	width: 128px;
+}
+#nclfcf-single, #nclfcp-single,
+#nraraut {
+	width: 132px;
+}
+#nclfcm-single, #phpws_form_fxb {
+	width: 68px;
+}
+.ncltxtn {
+	float: left;
+    width: 28px;
+	height: 286px;
+    margin: 5px 0px;
+    font: 9pt/1.4em "Courier New",Courier,monospace;
+	text-align: right;
+	color: #999999;
+	overflow: hidden;
+}
+.ncltxta {
+    display: block;
+    width: 94%;
+	height: 286px;
+    margin: 4px auto;
+    padding: 4px;
+}
+
+.ncltxt, #ngcomtxt, div#nbkarea {
+    display: block;
+    width: 100%;
+	height: 320px;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+.nclmsg, #ngcommsg, #nbkmsg {
+	min-height: 12pt;
+	color:#d00;
+    font: 1em monospace;
+}
+
+div#ngcomwop, div#nbkwop, div#nmuwop {
+	padding: 5px;
+	background-color: #ffffff;
+}
+#ngcomwop a.nga, #nbkwop a.nga {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#ngcomwoppics, #ngblockwoppics {
+	background-color: #000000;
+	margin: 2px;
+	max-height: 104px;
+}
+#ngcomwoppics img, #ngblockwoppics img {
+	padding: 2px 2px 0 2px;
+}
+
+.txtright {
+	text-align: right;
+}
+.txtcenter {
+	text-align: center;
+}
+
+div.ngchkboxlbl {
+	display:inline;
+	vertical-align:top;
+}
+
+#ngcomwt, #ngblockwt {
+	padding: 0px;
+}
+.ngtdbg {
+	background-color: #cccccc;
+}
+.ngcnt {
+	background-color: #ffffff;
+}
+.ngtable, .ngplain, .nbkngtable, .nbkngplain {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+.ngtable tr td, .ngtable tr th, .nbkngtable td, .nbkngtable th {
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	padding: 0px 2px;
+}
+.nbkngthead th, .nmungthead th, .ngthead tr th {
+	font-weight: bold;
+}
+
+.ngtrfoot, .nbkngtrfoot {
+	background-color: #ddd;
+}
+
+
+/* ngcom modal */
+
+#ncomodal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0, 0.5);
+	z-index: 99999;
+	opacity: 0;
+	-moz-transition: opacity 400ms ease-in;
+	-webkit-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+#ncomodal:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+#ncomodal > div {
+	/* width and hight of the modal picview */
+	width: 600px;
+	height: 450px;
+	position: relative;
+	margin: 2% auto;
+	padding: 6px 8px 6px 8px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+	background: linear-gradient(#fff, #999);
+}
+
+#ncomodalclose {
+	background: #800;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+#ncomodalclose:hover { background: Goldenrod; }
+
+
+
+/* ngblock */
+
+p, pre {
+	line-height: 1.1em;
+}
+
+pre {
+	font-size: 11px;
+}
+
+.nbkcnt ul, .nbkbox-content ul {
+	list-style-position: inside;
+	line-height: 1.1em;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.nbkcnt ul ul .nbkbox-content ul ul {
+	margin-left: 12px;
+}
+.nbkcnt li, .nbkbox-content li {
+	margin-left: 1em;
+}
+
+#sidepanel div.nbkbox-content div span[style="font-size: x-small;"] {
+	line-height: 1.1em;
+	display: block;
+}
+
+#nbktoc {
+	line-height: 1.1em;
+	max-height: 180px;
+	overflow: auto;
+}
+#nbktocx .box-content {
+	font-size: 0.9em;
+}
+div.nbktocxe {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.nbkngplain {
+	width: 99%;
+	font-size: 0.9em;
+	overflow-x: auto;
+}
+
+div.nbkcoltxthr hr {
+	border-color: #888;
+	border-style: dotted;
+	border-width: 0 0 1px 0;
+	height: 1px;
+}
+.nbkcoltxt {
+	   -moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	     -o-column-gap: 2em;
+	    -ms-column-gap: 2em;
+	        column-gap: 2em;
+	   -moz-column-rule: 1px dotted #888;
+	-webkit-column-rule: 1px dotted #888;
+	     -o-column-rule: 1px dotted #888;
+	    -ms-column-rule: 1px dotted #888;
+	        column-rule: 1px dotted #888;
+	line-height: 1.2em;
+	text-align: justify;
+	text-indent: 6px;
+}
+.nbkcoltxt2 {
+	   -moz-column-count: 2;
+	-webkit-column-count: 2;
+	     -o-column-count: 2;
+	    -ms-column-count: 2;
+	        column-count: 2;
+}
+.nbkcoltxt3 {
+	   -moz-column-count: 3;
+	-webkit-column-count: 3;
+	     -o-column-count: 3;
+	    -ms-column-count: 3;
+	        column-count: 3;
+}
+.nbkcoltxt4 {
+	   -moz-column-count: 4;
+	-webkit-column-count: 4;
+	     -o-column-count: 4;
+	    -ms-column-count: 4;
+	        column-count: 4;
+}
+.nbkcoltxt5 {
+	   -moz-column-count: 5;
+	-webkit-column-count: 5;
+	     -o-column-count: 5;
+	    -ms-column-count: 5;
+	        column-count: 5;
+}

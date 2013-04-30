@@ -1,0 +1,41 @@
+ngCom 3.0.0 Mar 2012
+20120411	1st release
+
+ngCom 3.0.1 Apr 2012
+20120417	rewritten to serve mods unique
+			textarea is feed by js instead templated static
+			(prevents xhtml issues)
+			
+ngCom 3.0.2 Apr 2012			
+20120420	editor textareas now resizable 
+			calling jquery_ui
+			
+ngCom 3.0.3 to 3.0.9
+			3.0.3 was experimental and not published
+			3.0.3 continues with a 3.1.0 version path
+			
+ngCom 3.0.10 Oct 2012
+20121016	cleditor now xhtml conform
+			serves javascript/editors/cleditor
+			serves javascript/ng_locale
+			serves core/nglocale.php
+			incl /javascript/jquery 1.7.2
+			incl /javascript/jquery_ui 1.8.23
+
+ngCom 3.0.11
+20121026	configure i18n box 3rd option none and optional pinpoint
+			i18n cfg now branch specific
+			
+Version 3.0.12
+2012.11.02	fixed cookie path (nglocale)
+			branch running save
+			
+Version 3.1.0
+2012.11.06	using javascript/ng_com with the tao tree
+
+Version 3.1.1
+2013.02.12	several updates and enhancements, lod
+
+Version 3.1.2
+2013.02.20	ngFxSlide jquery2html5css3
+			

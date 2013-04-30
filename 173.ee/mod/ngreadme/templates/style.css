@@ -1,0 +1,80 @@
+/*  ngHelp css 3.x */
+a, .nmea, #nmeboxc a, #searchresults td a  {
+	cursor: pointer;
+	color: #880000;
+}
+
+#nmeboxc {
+	min-height: 220px;
+	max-height: 380px;
+	overflow: auto;
+}
+#searchSelect {
+	min-height: 210px;
+	max-height: 320px;
+	overflow: auto;
+}
+
+#nmetoc .box-content {
+	line-height: 1.1em;
+}
+
+#nmetocx {
+	font-size: 0.9em;
+	max-height: 180px;
+	overflow: auto;
+}
+
+.nmebox {
+	border: 1px dotted #000000;
+	padding: 2px;
+	margin: 4px;
+	background-color: #ffffff;
+}
+.nmebox a:link, .nmebox a:visited, .nmebox a {
+	color: #a00;
+	text-decoration : none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a:link.nmetext, a:visited.nmetext  {
+    background-color : transparent;
+    text-decoration : none;
+	cursor: help;
+}
+a:hover.nmetext , a:active.nmetext  {
+    background-color : transparent;
+    text-decoration : none;
+	cursor: help;
+}
+span.nmetext {
+	display:none;
+	overflow: auto;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+    position:absolute; 
+    padding: 2px; 
+    min-width: 40px;
+    border: 1px solid #000; 
+    background-color: #FFFF8F; 
+    color: #000;
+	font-size: 0.9em;
+	line-height: 92%;
+	-moz-border-radius: 0px 7px 7px 7px;
+}
+.dark {
+	display: none;
+}
+
+.inmono {
+	font-family: monospace;
+	display: inline;
+}
+
+.nmeshown {
+	background-color: #ffffff;
+	color: #005;
+}
+.hilite {
+	background-color: #ff0;
+}

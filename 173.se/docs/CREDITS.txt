@@ -1,0 +1,210 @@
+--------------------------------------------------------------------------
+phpWebSite
+Copyright (c) 2003-2006 Web Technology Group, Appalachian State University
+--------------------------------------------------------------------------
+
+phpWebsite 1.x is a fully functional Content Managment System.
+PHP, MYSQL/Postgresql, and the PEAR libraries were used in its
+development.
+
+Version History:
+0.7.x  First fork of phpNuke
+0.8.x  Broad changes to phpNuke
+0.9.x  Completely rewritten. Nuke code removed
+0.10.x Same core but new default modules, themes, features and bug
+       fixes
+1.x    Core and core modules rewritten again for new functionality and
+       ease-of-use issues
+
+
+--------------------------------------------------------------------------
+Developers:
+--------------------------------------------------------------------------
+
+Matt McNaney (mcnaney at gmail dot com)
+Jeff Tickle
+Jeremy Booker
+Hilmar Runge
+Verdon Vaillancourt
+Eloi George
+
+
+---------------------
+Previous contributors
+---------------------
+Darren Greene
+Steven Levin
+Adam Morton
+Kevin Wilcox
+Jeremy Agee
+Mike Wilson
+Ryan Cowan
+
+--------------------------------------------------------------------------
+The phpWebSite team would also like to thank the following projects
+and their developers:
+--------------------------------------------------------------------------
+
+PHP
+http://www.php.net
+
+MySQL
+http://www.mysql.com
+
+Postgresql
+http://www.postgresql.org/
+
+phpMyAdmin
+http://www.phpmyadmin.net/home_page/
+
+phpPgAdmin
+http://phppgadmin.sourceforge.net/
+
+Horde
+http://horde.org
+
+PEAR
+http://pear.php.net
+
+Apache
+http://www.apache.org
+
+SourceForge
+http://sourceforge.net
+
+Hotscripts
+http://www.hotscripts.com/
+
+Freshmeat
+http://freshmeat.net/
+
+FCKeditor
+http://www.fckeditor.net/
+
+YouTube Plugin for FCKEditor
+http://youtubepluginfo.sourceforge.net/
+
+TinyMCE
+http://tinymce.moxiecode.com/
+
+Howard Yeend
+http://www.puremango.co.uk/
+
+Corz (BB decoder)
+http://corz.org/
+
+Jeroen Wijering
+Media Player
+http://www.jeroenwijering.com/
+
+Geoff Stearns
+SWFObject
+http://blog.deconcept.com/swfobject/
+
+Anssi Piirainen
+FlowPlayer
+http://flowplayer.sourceforge.net/
+(no longer in use but still appreciated)
+
+James Heinrich
+getID3
+http://www.getid3.org
+
+John Resig
+jquery
+http://jquery.com
+
+Sam Collett
+jquery select plugin
+http://www.texotela.co.uk
+
+Dylan Verheul
+jquery autocomplete plugin
+
+Ganeshji Marwaha
+jCarousel Lite plugin
+http://www.gmarwaha.com/jquery/jcarousellite/index.php
+
+Steven Wittens
+Farbtastic jQuery plugin
+http://www.acko.net/dev/farbtastic
+
+Marc Grabanski
+Keith Wood
+datepicker - jquery plugin
+http://docs.jquery.com/UI/Datepicker
+
+Jan Sorgalla
+jCarousel
+http://sorgalla.com/jcarousel/
+
+Yusuke Kamiyamane
+Fugue icons
+http://code.google.com/p/fugue-icons/
+
+
+Tango Desktop Project
+http://tango-project.org/
+
+Lightbox2
+Lokesh Dhakar
+http://www.huddletogether.com/projects/lightbox2/
+
+JSmin
+Ryan Grove & Douglas Crockford
+http://code.google.com/p/jsmin-php/
+
+phpqrcode
+Dominik Dzienia
+
+--------------------------------------------------------------------------
+To those who translate, we salute you.
+--------------------------------------------------------------------------
+Peter Heppner (German)
+Claus Iversen (Danish)
+Dang Hoai Phuc (Vietnamese)
+Doriano Cometto (Italian)
+Anders Haugarvoll (Norwegian)
+Olivier Sannier (French)
+Han Velthuis (Dutch)
+
+--------------------------------------------------------------------------
+The phpWebSite team would also like to thank the following people in
+alphabetical order for their contributions and support:
+--------------------------------------------------------------------------
+Scott Baer
+Dr. Greg Blimling
+Fridtjof Busse
+Christian - hosts phpws.de, German support
+Wendall Cada - SF maintainer, bug reporter
+Eloi George/aDarkling - xmlrpc dev, bug/feature patches, mods
+Darren Greene
+Hilmar Runge - documentation, bugs, functionality
+Thomas de Jesus - SF bugs and RFE, irc assistance
+Bobby Kennedy/fatman - phpwebsitemanual host
+Rene Kiesler/rck - kiesler.at, phpws advocate and developer
+Tommy de Jesus/trf000 - Windows survivor, tester, advocate
+Kevin McElligott/XiRoCCo - phpwsforums host
+Greg Meiste/blindman1344 - module developer, bug/RFE patch & report
+Greg Morgan/dr_kludge
+Shaun Murray/singletrack - Developer, user help, bugs, UI RFE
+Ken Nordquist/kenphused - mod developer
+Mike Noyes/mhnoyes - Black belt in standards & accessibility
+Paivi/spiggy
+Andrew Patterson/inuitart
+Ortwin Pinke
+Kenneth Poulsen/KennethP - User assistance
+Michael Rasmussen/TechElephant - bug fixes and developer
+Sharon Renshaw/Sharondippity - Theme developer and advice
+Don Seiler/rizzo
+Geoff Staples
+Richard Sumilang
+Verdon Vaillancourt - Bugs, 3rd party modules, user help, morale
+Paul Van Voorst
+Pete Wachs
+Cindy Wallace - Vice Chancellor of Student Development @ AppState
+Kevin Wilcox
+
+
+And all those who have contributed to phpWebSite. Thanks for your
+support even though we are neglectful parents =)

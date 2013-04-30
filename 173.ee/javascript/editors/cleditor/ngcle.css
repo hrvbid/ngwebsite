@@ -1,0 +1,56 @@
+/* 
+	fc.cleditor.css
+	Hilmar Runge
+	2012.09.06
+ */
+ 
+.hidden {
+	display: none;
+}
+ 
+.nclfcselect {
+	width: 132px;
+}
+
+.nclfcthumbs {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	margin: 0px 2px 0px 2px;
+	max-height: 104px;
+	overflow-y: auto;
+}
+
+.nclfcthumbs img {
+	vertical-align: middle;
+	margin: 0px 2px 0px 2px;
+}
+.nclfctnneg{
+	background-image: url('images/neg12.png');
+	background-repeat: repeat-x;
+	height: 12px;
+	display: none;
+}
+
+.nclarea {
+	min-height: 400px;
+}
+
+.ncloutliner {
+	border: 2px dotted #800;
+}
+
+.nclblock {
+	border: 1px solid #dddddd;
+	padding: 3px;
+	background: #eeeeee;
+}
+
+.nclblock a {
+	color: #800;
+	cursor: pointer;
+}
+
+.nclnodisplay, .hidden {
+	display: none;
+}

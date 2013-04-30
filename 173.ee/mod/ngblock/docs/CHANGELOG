@@ -1,0 +1,41 @@
+ngBlock
+
+Version 1.0.0
+2012.02 1st working draft of ngblock.
+
+Version 3.0.0
+2012.03 google translation interface is kept as is, but will
+		not more maintened because google changed the Terms
+		of Services and the API usage is now not more free of charge.
+		
+Version 3.0.1
+2012.04 	going to distro 1.7.3
+
+Version 3.0.10
+2012.10.16	split version 3.0 and 3.1
+			
+Version 3.0.11
+2012.10.28	if pinpoint does not exist: block does not display
+			dot(s) (.) allowed in name
+			msg prefixing + warn msg if editor data changed
+			del block now need to be pre-confirmed
+			
+Version 3.0.12
+Version 3.0.13
+2013.02.13	changed block recoding ffu
+			3.0.13 should be last version of 3.0.x
+
+Version 3.1.0
+2012.09.01	mod js removed, tao js instead
+
+Version 3.1.1
+2013.02.22	several changes
+
+Version 3.1.2
+2013.02.25	op/ltoc
+			exact/generic/universal asset against i18nbox changed
+			 calls op/view without blang/ are controlled by i18nbox
+			pinpage now may be generic
+			 ie controlpanel* takes all urls containing controlpanel
+			 ie ngblock*/view/* takes all urls containing ngblock and view
+			common vpool jso settings between rt and fg for tao
